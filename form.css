@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://wallpaperxyz.com/wp-content/uploads/Full-HD-1080p-Wallpapers-Desktop-Backgrounds-HD-Wallpaperxyz-dot-Com-3.jpg);
+}
+
+#header{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#upperBlock{
+    margin-top: 150px;
+}
+
+#headrule{
+    width: 500px;
+}
+
+#form{
+    margin-top: 25px;
+}
+
+#formCenter{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.rowText{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button{
+    margin-left: 120px;
+    background-color: beige;
+    padding: 10px;
+    text-decoration: black;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#first{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#last{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mail{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#checkForm{
+    margin-left: 800px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+}

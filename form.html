@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+
+</head>
+
+<body>
+
+    <div id="upperBlock">
+        <h1 id="header">REGISTER</h1>
+        <hr id="headrule" />
+    </div>
+
+    <hr id="headrule" />
+
+    <div id="formCenter">
+        <form action="#" id="form">
+            <table>
+                <tr>
+                    <td class="rowText"><label for="firstName">First Name: </label></td>
+                    <td><input id="firstName" type="text" placeholder="Jon" name="FirstName"
+                            onblur="validateFirstName()" required /><span id="first"></span></td>
+                </tr>
+                <tr>
+                    <td class="rowText"><label for="lastName">Last Name: </label></td>
+                    <td><input id="lastName" type="text" placeholder="Doe" name="LastName" onblur="validateLastName()"
+                            required /><span id="last"></span></td>
+                </tr>
+                <tr>
+                    <td class="rowText"><label for="email">Email: </label></td>
+                    <td><input id="email" type="email" placeholder="jondoe@example.com" onblur="validateEmail()"
+                            required /><span id="mail"></span></td>
+                </tr>
+                <tr>
+                    <td class="rowText"><label for="pass">Password: </label></td>
+                    <td><input id="pass" type="password" onblur="checkPass()"/><span id="pa"></span></td>
+                </tr>
+                <tr>
+                    <td class="rowText"><label for="phone">Contact No: </label></td>
+                    <td><input id="phone" type="number" placeholder="xxxxxxxxxx" /></td>
+                </tr>
+                <tr>
+                    <td class="rowText"><label for="gender">Gender: </label></td>
+                    <td>
+                        <label class="rowText" for="male">Male</label>
+                        <input id="male" name="gender" type="radio" />
+                        <label class="rowText" for="female">Female</label>
+                        <input id="female" name="gender" type="radio" />
+                        <label class="rowText" for="other">Other</label>
+                        <input id="other" name="gender" type="radio" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowText"><label for="bday">Birthday: </label></td>
+                    <td><input id="bday" type="date" /></td>
+                </tr>
+            </table>
+
+            <br />
+
+            <table>
+                <tr>
+                    <td class="rowText">I agree to the terms & conditions </td>
+                    <td><input id="checkbox" type="checkbox" checked/></td>
+                </tr>
+                <tr>
+                    <td><br /><span class="button" type="submit" value="button" onclick="checkForm()">SUBMIT</span></td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    <br/>
+    <span id="checkForm"></span>
+</body>
+
+</html>
